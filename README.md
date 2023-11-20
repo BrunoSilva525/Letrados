@@ -1,2 +1,2 @@
 # Letrados
-Um site criado por alguns alunos do CEFET-MG, inspirado no jogo Termo.
+Um site/jogo criado por alguns alunos do CEFET-MG, inspirado no jogo Termo.
