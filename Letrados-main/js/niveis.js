@@ -9,41 +9,6 @@ let botao8El = document.querySelector("#botao8");
 let botao9El = document.querySelector("#botao9");
 let botao10El = document.querySelector("#botao10");
 
-botao1El.addEventListener('click', function() {
-    location.href="../pages/game.html";
-});
-
-botao2El.addEventListener('click', function() {
-    location.href="../pages/game.html";
-});
-botao3El.addEventListener('click', function() {
-    location.href="../pages/game.html";
-});
-
-botao4El.addEventListener('click', function() {
-    location.href="../pages/game.html";
-});
-
-botao5El.addEventListener('click', function() {
-    location.href="../pages/game.html";
-});
-
-botao6El.addEventListener('click', function() {
-    location.href="../pages/game.html";
-});
-
-botao7El.addEventListener('click', function() {
-    location.href="../pages/game.html";
-});
-
-botao8El.addEventListener('click', function() {
-    location.href="../pages/game.html";
-});
-
-botao9El.addEventListener('click', function() {
-    location.href="../pages/game.html";
-});
-
-botao10El.addEventListener('click', function() {
-    location.href="../pages/game.html";
-});
+[botao1El, botao2El, botao3El, botao4El, botao5El, botao6El, botao7El, botao8El, botao9El, botao10El].forEach((el)=> {
+    el.addEventListener('click', () => location.href="../pages/game.html");
+})
